@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinand A S | Social Media Manager · Project Coordinator · Business Analyst</title>
+  <meta name="description" content="Portfolio of Abhinand A S — Social Media Manager, Project Coordinator &amp; Business Analyst specializing in Meta Ads, Content Production, and Creative Strategy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== CURSOR ===== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- ===== NAV ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">AA<span class="dot">.</span></div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+      <li><a href="#expertise" class="nav-link" data-section="expertise">Skills</a></li>
+      <li><a href="#creatives" class="nav-link" data-section="creatives">Creatives</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== PAGE 1 — HERO ===== -->
+  <section class="hero" id="hero">
+    <!-- Animated background -->
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="noise"></div>
+    </div>
+
+    <!-- Particle canvas -->
+    <canvas class="particles-canvas" id="particles"></canvas>
+
+    <div class="hero-inner">
+      <!-- Left — text -->
+      <div class="hero-text" data-aos="fade-right">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for work · 2026
+        </div>
+        <h1 class="hero-name">
+          <span class="name-line line-1">ABHINAND</span>
+          <span class="name-line line-2">A<span class="name-highlight"> S</span></span>
+        </h1>
+        <p class="hero-role">Social Media Manager &nbsp;|&nbsp; Project Coordinator &nbsp;|&nbsp; Business Analyst</p>
+        <p class="hero-tagline">Creative Thinking &nbsp;·&nbsp; Strategic Execution &nbsp;·&nbsp; Measurable Impact</p>
+        <p class="hero-desc">
+          A versatile professional combining creative content production, digital marketing, project coordination, and business analysis to support brand growth, streamline workflows, and deliver effective business outcomes.
+        </p>
+        <div class="hero-tags">
+          <span class="tag">Social Media Management</span>
+          <span class="tag">Meta Ads</span>
+          <span class="tag">Copywriting</span>
+          <span class="tag">Reels Editing</span>
+          <span class="tag">Creative Design</span>
+          <span class="tag">Team Coordination</span>
+          <span class="tag">Project Management</span>
+          <span class="tag">Business Analysis</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#about" class="btn btn-primary" id="explore-btn">
+            <span>Explore My Work</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="mailto:asabhinand10@gmail.com" class="btn btn-ghost">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-location">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Kozhikode, Kerala, India
+          </div>
+          <div class="hero-location">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.99 15 19.79 19.79 0 011.92 6.38 2 2 0 013.9 4.22h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 11.9a16 16 0 006 6l1.06-1.06a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 18.92z"/></svg>
+            9061356917
+          </div>
+          <div class="hero-location">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            asabhinand10@gmail.com
+          </div>
+        </div>
+      </div>
+
+      <!-- Right — image -->
+      <div class="hero-image-wrap" data-aos="fade-left">
+
+        <!-- Decorative bg elements -->
+        <div class="img-bg-square"></div>
+        <div class="img-bg-dots"></div>
+        <div class="img-corner img-corner-tl"></div>
+        <div class="img-corner img-corner-br"></div>
+
+        <!-- Glow behind -->
+        <div class="image-glow"></div>
+
+        <!-- Main frame -->
+        <div class="image-frame">
+          <img src="../abhinand.png.png" alt="Abhinand A S" class="hero-img" id="hero-img" />
+          <div class="img-overlay-grad"></div>
+        </div>
+
+        <!-- Floating accent line -->
+        <div class="img-accent-line"></div>
+
+        <!-- Badge -->
+        <div class="image-badge ib-1">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Portfolio 2026
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== PAGE 2 — ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="about-bg">
+      <div class="about-orb"></div>
+    </div>
+    <div class="container">
+
+      <!-- Section header -->
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">02 / About</span>
+        <h2 class="section-title">
+          Creative Mind.<br/>
+          <span class="highlight">Strategic Approach.</span><br/>
+          Organized Execution.
+        </h2>
+      </div>
+
+      <!-- About grid -->
+      <div class="about-grid">
+        <!-- Bio card -->
+        <div class="about-bio-card glass-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="card-glow"></div>
+          <p class="bio-text">
+            I am a versatile professional with experience in social media marketing coordination, project management, and business analysis. I combine <strong>creativity</strong>, <strong>analytical thinking</strong>, and <strong>organizational skills</strong> to support digital marketing initiatives, coordinate cross-functional teams, and ensure projects move efficiently from planning to execution.
+          </p>
+          <p class="bio-text">
+            My experience includes coordinating social media campaigns, developing content ideas, writing engaging captions and scripts, creating visual content, editing short-form videos, and supporting Meta Ads activities. Alongside my creative capabilities, I bring experience in requirement gathering, stakeholder communication, project tracking, and business documentation.
+          </p>
+          <p class="bio-text accent-text">
+            I enjoy working at the intersection of creativity, technology, and business — transforming ideas into structured plans, meaningful content, and effective execution.
+          </p>
+        </div>
+
+        <!-- Pillars -->
+        <div class="about-pillars" data-aos="fade-left" data-aos-delay="200">
+
+          <div class="pillar-card glass-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+            </div>
+            <div class="pillar-content">
+              <h3 class="pillar-title">Creative Thinking</h3>
+              <p class="pillar-desc">Developing content ideas, writing compelling copy, and creating engaging social media visuals and videos.</p>
+            </div>
+          </div>
+
+          <div class="pillar-card glass-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <div class="pillar-content">
+              <h3 class="pillar-title">Digital Marketing</h3>
+              <p class="pillar-desc">Supporting campaign execution, social media planning, Meta Ads coordination, and performance tracking.</p>
+            </div>
+          </div>
+
+          <div class="pillar-card glass-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+            </div>
+            <div class="pillar-content">
+              <h3 class="pillar-title">Project Coordination</h3>
+              <p class="pillar-desc">Managing timelines, tracking tasks, coordinating teams, and maintaining clear communication across projects.</p>
+            </div>
+          </div>
+
+          <div class="pillar-card glass-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+            </div>
+            <div class="pillar-content">
+              <h3 class="pillar-title">Business Analysis</h3>
+              <p class="pillar-desc">Understanding requirements, documenting business needs, analyzing processes, and supporting data-informed decisions.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Approach strip -->
+      <div class="approach-strip" data-aos="fade-up" data-aos-delay="200">
+        <div class="approach-item">
+          <span class="approach-num">01</span>
+          <div>
+            <p class="approach-label">Creativity with purpose.</p>
+          </div>
+        </div>
+        <div class="approach-divider"></div>
+        <div class="approach-item">
+          <span class="approach-num">02</span>
+          <div>
+            <p class="approach-label">Planning with clarity.</p>
+          </div>
+        </div>
+        <div class="approach-divider"></div>
+        <div class="approach-item">
+          <span class="approach-num">03</span>
+          <div>
+            <p class="approach-label">Execution with accountability.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Goal statement -->
+      <div class="goal-statement" data-aos="zoom-in" data-aos-delay="100">
+        <div class="goal-inner glass-card">
+          <div class="goal-quote">"</div>
+          <p class="goal-text">My goal is to create meaningful digital experiences while ensuring the strategy, people, and processes behind them work together effectively.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PAGE 3 — EXPERIENCE ===== -->
+  <section class="experience" id="experience">
+    <div class="exp-bg">
+      <div class="exp-orb"></div>
+    </div>
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">03 / Experience</span>
+        <h2 class="section-title">Professional <span class="highlight">Journey</span></h2>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Job 01 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+          <div class="timeline-marker">
+            <div class="tm-dot"></div>
+            <div class="tm-line"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="card-glow"></div>
+            <div class="tc-header">
+              <div class="tc-num">01</div>
+              <div class="tc-title-wrap">
+                <h3 class="tc-role">Project Coordinator</h3>
+                <p class="tc-company">Digit US IT Solutions Pvt. Ltd.</p>
+              </div>
+              <div class="tc-meta">
+                <span class="tc-date">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                  Mar 2026 – Jun 2026
+                </span>
+                <span class="tc-loc">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Kozhikode, Kerala
+                </span>
+              </div>
+            </div>
+            <ul class="tc-list">
+              <li>Coordinated digital marketing and software development projects from planning to delivery.</li>
+              <li>Collaborated with developers, designers, QA professionals, and marketing teams to ensure smooth project execution.</li>
+              <li>Managed project timelines, content calendars, task tracking, and progress updates.</li>
+              <li>Supported social media campaigns, content planning, and Meta Ads coordination.</li>
+              <li>Developed marketing captions, scripts, and content briefs for digital campaigns.</li>
+              <li>Coordinated software testing, bug tracking, and issue resolution.</li>
+              <li>Maintained project documentation, reports, and performance tracking.</li>
+            </ul>
+            <div class="tc-tags">
+              <span class="tc-tag">Project Management</span>
+              <span class="tc-tag">Meta Ads</span>
+              <span class="tc-tag">Content Strategy</span>
+              <span class="tc-tag">QA Coordination</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 02 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-marker">
+            <div class="tm-dot"></div>
+            <div class="tm-line"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="card-glow"></div>
+            <div class="tc-header">
+              <div class="tc-num">02</div>
+              <div class="tc-title-wrap">
+                <h3 class="tc-role">Business Analyst &amp; Project Coordinator</h3>
+                <p class="tc-company">Sesame Technologies Pvt. Ltd.</p>
+              </div>
+              <div class="tc-meta">
+                <span class="tc-date">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                  Aug 2025 – Feb 2026
+                </span>
+                <span class="tc-loc">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Kozhikode, Kerala
+                </span>
+              </div>
+            </div>
+            <ul class="tc-list">
+              <li>Conducted requirement-gathering activities and prepared BRDs and FRDs for client projects.</li>
+              <li>Coordinated cross-functional teams to support project delivery and milestone tracking.</li>
+              <li>Analyzed operational performance data to identify process bottlenecks and improvement opportunities.</li>
+              <li>Supported digital marketing campaign tracking, reporting, and engagement analysis.</li>
+              <li>Designed social media creatives, promotional posters, and marketing materials using Canva and Adobe Photoshop.</li>
+              <li>Edited short-form social media videos using CapCut.</li>
+              <li>Collaborated with marketing teams to develop visual content aligned with brand guidelines.</li>
+            </ul>
+            <div class="tc-tags">
+              <span class="tc-tag">BRD / FRD</span>
+              <span class="tc-tag">Canva</span>
+              <span class="tc-tag">Photoshop</span>
+              <span class="tc-tag">CapCut</span>
+              <span class="tc-tag">Data Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 03 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-marker">
+            <div class="tm-dot"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="card-glow"></div>
+            <div class="tc-header">
+              <div class="tc-num">03</div>
+              <div class="tc-title-wrap">
+                <h3 class="tc-role">Business Analyst Intern</h3>
+                <p class="tc-company">Sesame Technologies Pvt. Ltd.</p>
+              </div>
+              <div class="tc-meta">
+                <span class="tc-date">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                  Mar 2025 – Aug 2025
+                </span>
+                <span class="tc-loc">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Kozhikode, Kerala
+                </span>
+              </div>
+            </div>
+            <ul class="tc-list">
+              <li>Assisted in gathering business requirements for internal modules and documenting BRDs.</li>
+              <li>Analyzed user feedback to identify recurring issues and support process improvements.</li>
+              <li>Collaborated with developers to clarify functional requirements and resolve gaps.</li>
+              <li>Participated in client meetings to support requirement validation and scope clarification.</li>
+              <li>Assisted with project tracking and reporting activities.</li>
+            </ul>
+            <div class="tc-tags">
+              <span class="tc-tag">Requirements Gathering</span>
+              <span class="tc-tag">Documentation</span>
+              <span class="tc-tag">Client Meetings</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Strengths strip -->
+      <div class="strengths-strip" data-aos="fade-up" data-aos-delay="100">
+        <div class="strengths-label">Professional Strengths</div>
+        <div class="strengths-tags">
+          <span class="strength-tag">Social Media Marketing Coordination</span>
+          <span class="strength-tag">Creative Content Production</span>
+          <span class="strength-tag">Cross-Functional Teamwork</span>
+          <span class="strength-tag">Project Tracking</span>
+          <span class="strength-tag">Business Documentation</span>
+          <span class="strength-tag">Stakeholder Communication</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PAGE 4 — EXPERTISE ===== -->
+  <section class="expertise" id="expertise">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">04 / Skills</span>
+        <h2 class="section-title">Core <span class="highlight">Skills</span></h2>
+      </div>
+
+      <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="0">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Social Media Marketing</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+
+        <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="80">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 10l4.553-2.069A1 1 0 0121 8.87V15.13a1 1 0 01-1.447.9L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>
+          </div>
+          <h3>Reels Editing</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="160">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          </div>
+          <h3>Copywriting</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+          <span class="skill-pct">88%</span>
+        </div>
+
+        <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="240">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/><circle cx="17" cy="7" r="2" fill="currentColor"/></svg>
+          </div>
+          <h3>Meta Ads</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="82%"></div></div>
+          <span class="skill-pct">82%</span>
+        </div>
+
+        <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="320">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Creative Design</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+
+        <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="400">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Team Coordination</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="87%"></div></div>
+          <span class="skill-pct">87%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PAGE 5 — CREATIVES ===== -->
+  <section class="creatives-section" id="creatives">
+    <div class="creatives-bg">
+      <div class="creatives-orb"></div>
+    </div>
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">05 / Creatives</span>
+        <h2 class="section-title">Visual <span class="highlight">Creatives</span></h2>
+        <p class="section-sub">Social media visuals, promotional campaigns, reels &amp; video productions.</p>
+      </div>
+
+      <!-- Google Photos CTA -->
+      <div class="cr-album-cta" data-aos="fade-up" data-aos-delay="50">
+        <div class="cr-album-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 10l4.553-2.069A1 1 0 0121 8.87V15.13a1 1 0 01-1.447.9L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>
+        </div>
+        <div class="cr-album-text">
+          <h3>Full Creative Album</h3>
+          <p>Play all creative videos directly on Google Photos — no download needed.</p>
+        </div>
+        <a href="https://photos.app.goo.gl/jdbCvvZ5GhPLG4Le6" target="_blank" rel="noopener" class="cr-album-link" id="google-photos-album-btn">
+          View Album
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+
+      <!-- Photos grid -->
+      <div class="cr-sub-label" data-aos="fade-up">📸 Photos</div>
+      <div class="cr-photo-grid" data-aos="fade-up" data-aos-delay="80">
+        <div class="cr-photo-item" onclick="crOpenLightbox('Assets/AWARD WINNER PHOTO NAME.jpg','Award Winner')"><img src="Assets/AWARD WINNER PHOTO NAME.jpg" alt="Award Winner" loading="lazy" /><div class="cr-photo-overlay"><span></span></div></div>
+        <div class="cr-photo-item" onclick="crOpenLightbox('Assets/adarsh final.jpg','Adarsh Final')"><img src="Assets/adarsh final.jpg" alt="Adarsh Final" loading="lazy" /><div class="cr-photo-overlay"><span></span></div></div>
+        <div class="cr-photo-item" onclick="crOpenLightbox('Assets/aswin.jpg','Aswin')"><img src="Assets/aswin.jpg" alt="Aswin" loading="lazy" /><div class="cr-photo-overlay"><span></span></div></div>
+        <div class="cr-photo-item" onclick="crOpenLightbox('Assets/palakkl 2.jpg','Palakkad')"><img src="Assets/palakkl 2.jpg" alt="Palakkad" loading="lazy" /><div class="cr-photo-overlay"><span></span></div></div>
+        <div class="cr-photo-item" onclick="crOpenLightbox('Assets/shangoliiiii.jpg','Shangoli')"><img src="Assets/shangoliiiii.jpg" alt="Shangoli" loading="lazy" /><div class="cr-photo-overlay"><span></span></div></div>
+        <div class="cr-photo-item" onclick="crOpenLightbox('Assets/shangoliiiii.jpg','Shangoli')"><img src="Assets/VYSHNAV228.jpg" alt="ulsavam" loading="lazy" /><div class="cr-photo-overlay"><span></span></div></div>
+      </div>
+
+      <!-- Videos grid -->
+      <div class="cr-sub-label" data-aos="fade-up" style="margin-top:3rem;">&#127916; Videos</div>
+      <div class="cr-video-grid">
+
+        <div class="gp-thumb-card" data-aos="fade-up" data-aos-delay="0">
+          <a href="https://photos.app.goo.gl/2H1nXZ9eZ2xueCdQ8" class="gp-thumb-link" id="gp-video-01" onclick="openGP('https://photos.app.goo.gl/2H1nXZ9eZ2xueCdQ8'); return false;">
+            <img src="Assets/image.jpg" alt="Creative Video 01" loading="lazy" />
+            <div class="gp-thumb-overlay"><div class="gp-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+            <div class="gp-thumb-badge">01</div>
+            <div class="gp-thumb-logo"><svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="10" fill="white" opacity="0.9"/><path d="M12 7l1.5 3.5L17 11.5l-2.5 2.5.5 3.5L12 16l-3 1.5.5-3.5L7 11.5l3.5-1z" fill="#FF6B1A"/></svg>Google Photos</div>
+          </a>
+          <div class="cr-video-label"><span class="cr-dot"></span>Creative Video 01</div>
+        </div>
+
+        <div class="gp-thumb-card" data-aos="fade-up" data-aos-delay="80">
+          <a href="https://photos.app.goo.gl/td8iiGaqomQ6A1G98" class="gp-thumb-link" id="gp-video-02" onclick="openGP('https://photos.app.goo.gl/td8iiGaqomQ6A1G98'); return false;">
+            <img src="Assets/image2.jpg" alt="Creative Video 02" loading="lazy" />
+            <div class="gp-thumb-overlay"><div class="gp-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+            <div class="gp-thumb-badge">02</div>
+            <div class="gp-thumb-logo"><svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="10" fill="white" opacity="0.9"/><path d="M12 7l1.5 3.5L17 11.5l-2.5 2.5.5 3.5L12 16l-3 1.5.5-3.5L7 11.5l3.5-1z" fill="#FF6B1A"/></svg>Google Photos</div>
+          </a>
+          <div class="cr-video-label"><span class="cr-dot"></span>Creative Video 02</div>
+        </div>
+
+        <div class="gp-thumb-card" data-aos="fade-up" data-aos-delay="160">
+          <a href="https://photos.app.goo.gl/GYQANXgfaDrMhtS57" class="gp-thumb-link" id="gp-video-03" onclick="openGP('https://photos.app.goo.gl/GYQANXgfaDrMhtS57'); return false;">
+            <img src="Assets/image3.png" alt="Creative Video 03" loading="lazy" />
+            <div class="gp-thumb-overlay"><div class="gp-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+            <div class="gp-thumb-badge">03</div>
+            <div class="gp-thumb-logo"><svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="10" fill="white" opacity="0.9"/><path d="M12 7l1.5 3.5L17 11.5l-2.5 2.5.5 3.5L12 16l-3 1.5.5-3.5L7 11.5l3.5-1z" fill="#FF6B1A"/></svg>Google Photos</div>
+          </a>
+          <div class="cr-video-label"><span class="cr-dot"></span>Creative Video 03</div>
+        </div>
+
+        <div class="gp-thumb-card" data-aos="fade-up" data-aos-delay="240">
+          <a href="https://photos.app.goo.gl/MBaiD4pN1RLGWEmSA" class="gp-thumb-link" id="gp-video-04" onclick="openGP('https://photos.app.goo.gl/MBaiD4pN1RLGWEmSA'); return false;">
+            <img src="Assets/image4.png" alt="Creative Video 04" loading="lazy" />
+            <div class="gp-thumb-overlay"><div class="gp-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+            <div class="gp-thumb-badge">04</div>
+            <div class="gp-thumb-logo"><svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="10" fill="white" opacity="0.9"/><path d="M12 7l1.5 3.5L17 11.5l-2.5 2.5.5 3.5L12 16l-3 1.5.5-3.5L7 11.5l3.5-1z" fill="#FF6B1A"/></svg>Google Photos</div>
+          </a>
+          <div class="cr-video-label"><span class="cr-dot"></span>Creative Video 04</div>
+        </div>
+
+        <div class="gp-thumb-card" data-aos="fade-up" data-aos-delay="320">
+          <a href="https://photos.app.goo.gl/4dtBVSxN9M8L2PE58" class="gp-thumb-link" id="gp-video-05" onclick="openGP('https://photos.app.goo.gl/4dtBVSxN9M8L2PE58'); return false;">
+            <img src="Assets/image5.png" alt="Creative Video 05" loading="lazy" />
+            <div class="gp-thumb-overlay"><div class="gp-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+            <div class="gp-thumb-badge">05</div>
+            <div class="gp-thumb-logo"><svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="10" fill="white" opacity="0.9"/><path d="M12 7l1.5 3.5L17 11.5l-2.5 2.5.5 3.5L12 16l-3 1.5.5-3.5L7 11.5l3.5-1z" fill="#FF6B1A"/></svg>Google Photos</div>
+          </a>
+          <div class="cr-video-label"><span class="cr-dot"></span>Creative Video 05</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox for creatives -->
+  <div class="cr-lightbox" id="cr-lightbox" onclick="crCloseLightbox(event)">
+    <button class="cr-lb-close" onclick="crCloseLightbox()" title="Close">✕</button>
+    <img src="" alt="" id="cr-lb-img" />
+  </div>
+
+  <!-- ===== PAGE 6 — CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-bg">
+      <div class="contact-orb"></div>
+    </div>
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">06 / Contact</span>
+        <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+        <p class="section-sub">Have a project in mind? Let's create something amazing together.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a href="mailto:asabhinand10@gmail.com" class="contact-card glass-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="cc-content">
+            <h3>Email</h3>
+            <p>asabhinand10@gmail.com</p>
+          </div>
+          <div class="cc-arrow">→</div>
+        </a>
+
+        <div class="contact-card glass-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="cc-content">
+            <h3>Location</h3>
+            <p>Kozhikode, Kerala, India</p>
+          </div>
+          <div class="cc-arrow">→</div>
+        </div>
+
+  
+<a
+  href="https://www.linkedin.com/in/abhinandsurendran/"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="contact-card glass-card"
+  data-aos="fade-up"
+  data-aos-delay="300"
+  style="text-decoration: none; color: inherit;"
+>
+  <div class="cc-icon">
+    <svg viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="1.5">
+      <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2
+      2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+      <rect x="2" y="9" width="4" height="12"/>
+      <circle cx="4" cy="4" r="2"/>
+    </svg>
+  </div>
+
+  <div class="cc-content">
+    <h3>LinkedIn</h3>
+    <p>Connect with me</p>
+  </div>
+
+  <div class="cc-arrow">→</div>
+</a>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">AA<span class="dot">.</span></div>
+      <p class="footer-copy">© 2026 Abhinand A S · All rights reserved.</p>
+      <p class="footer-made">Designed with passion ✦</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    /* ── Creatives lightbox ── */
+    function crOpenLightbox(src, alt) {
+      const lb  = document.getElementById('cr-lightbox');
+      const img = document.getElementById('cr-lb-img');
+      img.src = src; img.alt = alt;
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function crCloseLightbox(e) {
+      if (!e || e.target === document.getElementById('cr-lightbox') || e.target.classList.contains('cr-lb-close')) {
+        document.getElementById('cr-lightbox').classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    }
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') crCloseLightbox({ target: document.getElementById('cr-lightbox') });
+    });
+
+    /* ── Google Photos opener — bypasses popup blockers ── */
+    function openGP(url) {
+      /* Try new tab first; if browser blocks it, fall back to same tab */
+      const win = window.open(url, '_blank');
+      if (!win || win.closed || typeof win.closed === 'undefined') {
+        window.location.href = url;
+      }
+    }
+  </script>
+</body>
+</html>
